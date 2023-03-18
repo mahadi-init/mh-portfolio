@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://mh-portfolio-eight.vercel.app",
   name: "Mahadi Hasan",
   jobDescription: "Web Developer",
   about: `I am a web developer with a passion for creating beautiful and functional websites.
@@ -57,11 +57,18 @@ export const info = {
 
   projects: [
     {
-      title: "mahadi Portfolio",
+      title: "Code Store",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/im-mahadi",
-      liveUrl: "change-ths-url",
+      thumbnail: "/assets/projects/code-store.png",
+      githubUrl: "https://github.com/im-mahadi/code-store",
+      liveUrl: "https://code-store.vercel.app/",
+    },
+    {
+      title: "mh-blog",
+      isFeatured: true,
+      thumbnail: "/assets/projects/mh-blog.png",
+      githubUrl: "https://github.com/im-mahadi/mh-blog",
+      liveUrl: "https://mh-blog-three.vercel.app/",
     },
   ],
 };
