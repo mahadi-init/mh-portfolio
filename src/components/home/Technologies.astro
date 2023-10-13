@@ -1,0 +1,67 @@
+---
+const { title, technologies } = Astro.props as {
+  title: string;
+  technologies: [
+    {
+      languages: string[];
+      frameworks: string[];
+      backend: string[];
+      version_control: string[];
+      database: string[];
+      other: string[];
+    }
+  ];
+};
+---
+
+<section
+  class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
+>
+  <h2 class="w-[15rem] mt-16">{title}</h2>
+  <ul class="w-full my-16 space-y-1">
+    {
+      technologies.map((technology) => (
+        <li class="grid grid-cols-2 gap-6">
+          <ol>
+            <span class="dark:text-purple-300 font-medium">
+              Programming Lanuguages
+            </span>
+            {technology.languages.map((item) => {
+              return <li class="dark:text-purple-200">- {item}</li>;
+            })}
+          </ol>
+          <ol>
+            <span class="dark:text-lime-300 font-medium">Frameworks</span>
+            {technology.frameworks.map((item) => {
+              return <li class="dark:text-lime-200">- {item}</li>;
+            })}
+          </ol>
+          <ol>
+            <span class="dark:text-amber-300 font-medium">Backend</span>
+            {technology.backend.map((item) => {
+              return <li class="dark:text-amber-200">- {item}</li>;
+            })}
+          </ol>
+          <ol>
+            <span class="dark:text-red-300 font-medium">Version Control</span>
+            {technology.version_control.map((item) => {
+              return <li class="dark:text-red-200">- {item}</li>;
+            })}
+          </ol>
+          <ol>
+            <span class="dark:text-teal-300 font-medium">Database</span>
+            {technology.database.map((item) => {
+              return <li class="dark:text-teal-200">- {item}</li>;
+            })}
+          </ol>
+          <ol>
+            <span class="dark:text-zinc-300 font-medium">Other</span>
+            {technology.other.map((item) => {
+              return <li class="dark:text-zinc-200">- {item}</li>;
+            })}
+          </ol>
+        </li>
+      ))
+    }
+  </ul>
+</section>

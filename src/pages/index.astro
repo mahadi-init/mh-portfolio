@@ -6,6 +6,8 @@ import Hero from "@components/home/Hero.astro";
 import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+import Skills from "@components/home/Skills.astro";
+import Technologies from "@components/home/Technologies.astro";
 
 const featureProjects = info.projects.map((project, index) => {
   if (project.isFeatured && index < 6) {
@@ -27,8 +29,10 @@ const featureProjects = info.projects.map((project, index) => {
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
-      <Experience title={"EXPERIENCE"} details={info.experience} />
       <Experience title={"EDUCATION"} details={info.education} />
+      <Skills title={"SKILLS"} skills={info.skills} />
+      <Technologies title={"SKILLS"} technologies={info.technologies} />
+      <Experience title={"EXPERIENCE"} details={info.experience} />
       <section>
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />

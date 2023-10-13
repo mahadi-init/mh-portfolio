@@ -1,0 +1,15 @@
+---
+const { title, skills } = Astro.props as {
+  title: string;
+  skills: string[];
+};
+---
+
+<section
+  class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
+>
+  <h2 class="w-[15rem] mt-16">{title}</h2>
+  <ul class="w-full my-16 space-y-1">
+    {skills.map((skill) => <li class="dark:text-white">- {skill}</li>)}
+  </ul>
+</section>
