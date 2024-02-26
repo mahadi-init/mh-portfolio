@@ -2,11 +2,8 @@ export const info = {
   baseUrl: "https://mh-portfolio-eight.vercel.app",
   name: "Mahadi Hasan",
   jobDescription: "Web Developer",
-  about: `I am a web developer with a passion for creating beautiful and functional websites.
-  I have experience in building web applications using React, Next.js, and Tailwind CSS. 
-  I am also familiar with Typescript,Docker,PostgresSql and Firebase. 
-  I am currently looking for a job as a web developer.
-  `,
+  about: `A passionate developer specializing in front-end and back-end knowledge. Passionate about new
+          programming ideas. Efficient in a number of programming languages and design patterns.`,
 
   education: [
     {
@@ -18,28 +15,33 @@ export const info = {
     },
   ],
 
-  skills: ["OOP Knowledge", "Clean Coding", "Design Patterns"],
+  skills: ["OOP Knowledge", "Clean Coding", "Design Patterns", "Fast Learning"],
   technologies: [
     {
-      languages: ["HTML", "CSS", "TS", "Java"],
-      frameworks: ["ReactJs", "NextJs"],
-      backend: ["NestJs"],
-      version_control: ["Git", "Github"],
-      database: ["Firebase", "Postgresql"],
-      other: ["Prisma", "Docker"],
+      languages: ["HTML", "CSS", "JS", "TS", "Java"],
+      frameworks: [
+        "ReactJs",
+        "NextJs",
+        "ExpressJs",
+        "Tailwind CSS",
+        "Bootstarp",
+      ],
+      database: ["Mongodb", "Prisma"],
+      other: ["Docker", "Git", "Github"],
     },
   ],
 
   experience: [
     {
-      name: "SkillJobs (Remote)",
-      location: "Dhanmondi, Dhaka, Bangladesh",
-      startDate: "Sep 2022",
-      endDate: "Jan 2023",
+      name: "LSKIT (Hybrid)",
+      location: "Mirpur, Dhaka, Bangladesh",
+      startDate: "Feb 2024",
+      endDate: "Present",
       description: [
-        "- Build Website Using HTML, CSS, JS and React",
-        "- Worked under Senior guidance",
-        "- Used technologies like ORM to manage databases.",
+        "- Working on existing projects and customizing the look and feel of the frontend site.",
+        "- Optimizing codebase, increasing site overall performance, sometimes adding new features",
+        "- Mostly doing NextJs as frontend, ExpressJs as backend and mongodb as database",
+        "- Implementing REST api and refactor frontend according to the implementation",
       ],
     },
   ],
@@ -47,35 +49,53 @@ export const info = {
   socialMedia: {
     facebook: "https://www.facebook.com/me.mahadi/",
     github: "https://github.com/mahadi-init",
-    email: "init.mahadi@gmail.com",
+    email: "mailto:mahadi.dev@outlook.com",
     linkedin: "https://www.linkedin.com/in/mahadi-hasan-637a87240/",
   },
 
   projects: [
     {
-      title: "Tunify",
+      title: "Aliba International",
+      desc: "E-commerce website for Aliba (software farm private codebase)",
       isFeatured: true,
-      thumbnail: "/assets/projects/tunify.png",
-      githubUrl: "https://github.com/mahadi-init/tunify",
-      liveUrl: "https://tunify-xi.vercel.app/",
+      thumbnail: "/assets/projects/aliba.png",
+      liveUrl: "https://alibanew.netlify.app/",
     },
     {
-      title: "mh-blog",
+      title: "Ladies Sign Admin Panel",
+      desc: "Admin panel for ladies sign online shop(private codebase)",
       isFeatured: true,
-      thumbnail: "/assets/projects/mh-blog.png",
+      thumbnail: "/assets/projects/ladies-sign.png",
+      liveUrl: "https://ladies-sign-admin.vercel.app/",
+    },
+    {
+      title: "Solvers",
+      desc: "Problem solvers community",
+      isFeatured: true,
+      thumbnail: "/assets/projects/solvers.png",
+      githubUrl: "https://github.com/mahadi-init/solvers",
+      liveUrl: "https://solvers-seven.vercel.app/",
+    },
+    {
+      title: "mh-blogs",
+      desc: "Personal blogging site",
+      isFeatured: true,
+      thumbnail: "/assets/projects/mh-blogs.png",
       githubUrl: "https://github.com/mahadi-init/mh-blog",
       liveUrl: "https://mh-blog-three.vercel.app/",
     },
     {
       title: "Wallpaper Changer",
+      desc: "A desktop software to change wallpaper",
       isFeatured: true,
-      thumbnail: "/assets/projects/wallpaper.png",
+      thumbnail: "/assets/projects/wallpaper-changer.png",
       githubUrl: "https://github.com/mahadi-init/wallpaper-changer",
     },
     {
-      title: "Batch54",
+      title: "Batch-54",
+      desc: "Android app to manage an entire batch of students",
       isFeatured: true,
-      thumbnail: "/assets/projects/batch54.png",
+      thumbnail: "/assets/projects/batch-54.png",
       githubUrl: "https://github.com/mahadi-init/Batch54",
     },
   ],

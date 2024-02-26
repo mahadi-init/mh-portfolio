@@ -23,6 +23,7 @@ export interface IExperiences {
 
 export interface IProject {
   title: string;
+  desc: string;
   isFeatured: boolean;
   thumbnail: string;
   githubUrl: string;
