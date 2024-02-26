@@ -5,8 +5,7 @@ const { title, technologies } = Astro.props as {
     {
       languages: string[];
       frameworks: string[];
-      backend: string[];
-      version_control: string[];
+      // version_control: string[];
       database: string[];
       other: string[];
     }
@@ -37,27 +36,15 @@ const { title, technologies } = Astro.props as {
             })}
           </ol>
           <ol>
-            <span class="dark:text-amber-300 font-medium">Backend</span>
-            {technology.backend.map((item) => {
-              return <li class="dark:text-amber-200">- {item}</li>;
-            })}
-          </ol>
-          <ol>
-            <span class="dark:text-red-300 font-medium">Version Control</span>
-            {technology.version_control.map((item) => {
-              return <li class="dark:text-red-200">- {item}</li>;
-            })}
-          </ol>
-          <ol>
             <span class="dark:text-teal-300 font-medium">Database</span>
             {technology.database.map((item) => {
               return <li class="dark:text-teal-200">- {item}</li>;
             })}
           </ol>
           <ol>
-            <span class="dark:text-zinc-300 font-medium">Other</span>
+            <span class="dark:text-red-300 font-medium">Other</span>
             {technology.other.map((item) => {
-              return <li class="dark:text-zinc-200">- {item}</li>;
+              return <li class="dark:text-red-200">- {item}</li>;
             })}
           </ol>
         </li>
