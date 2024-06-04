@@ -33,15 +33,14 @@ export const info = {
 
   experience: [
     {
-      name: "LSKIT (Hybrid)",
+      name: "Skyland Web",
       location: "Mirpur, Dhaka, Bangladesh",
-      startDate: "Feb 2024",
+      startDate: "March 2024",
       endDate: "Present",
       description: [
-        "- Working on existing projects and customizing the look and feel of the frontend site.",
-        "- Optimizing codebase, increasing site overall performance, sometimes adding new features",
-        "- Mostly doing NextJs as frontend, ExpressJs as backend and mongodb as database",
-        "- Implementing REST api and refactor frontend according to the implementation",
+        "- Building REST API with ExpressJs following the MVC model and latest ES module",
+        "- Using mostly MongoDB as a database and sometimes Postgres with Prisma.",
+        "- API documentation with the postman and team collaboration.",
       ],
     },
   ],
@@ -55,26 +54,11 @@ export const info = {
 
   projects: [
     {
-      title: "Aliba International",
-      desc: "E-commerce website for Aliba (software farm private codebase)",
-      isFeatured: true,
-      thumbnail: "/assets/projects/aliba.png",
-      liveUrl: "https://alibanew.netlify.app/",
-    },
-    {
       title: "Ladies Sign Admin Panel",
       desc: "Admin panel for ladies sign online shop(private codebase)",
       isFeatured: true,
       thumbnail: "/assets/projects/ladies-sign.png",
       liveUrl: "https://ladies-sign-admin.vercel.app/",
-    },
-    {
-      title: "Solvers",
-      desc: "Problem solvers community",
-      isFeatured: true,
-      thumbnail: "/assets/projects/solvers.png",
-      githubUrl: "https://github.com/mahadi-init/solvers",
-      liveUrl: "https://solvers-seven.vercel.app/",
     },
     {
       title: "mh-blogs",
