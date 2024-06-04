@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "https://mh-portfolio-eight.vercel.app",
   name: "Mahadi Hasan",
   jobDescription: "Web Developer",
-  about: `A passionate developer specializing in front-end and back-end knowledge. Passionate about new
+  about: `A developer specializing in front-end and back-end knowledge. Passionate about new
           programming ideas. Efficient in a number of programming languages and design patterns.`,
 
   education: [
