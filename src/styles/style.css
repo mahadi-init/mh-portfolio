@@ -8,6 +8,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* For Chrome, Safari, and Opera */
+  ::-webkit-scrollbar {
+    width: 0px;
+    /* Width of the scrollbar */
+  }
+}
+
 /* ========== tailwind custom styles ========== */
 @layer components {
   body {
