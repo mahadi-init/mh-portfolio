@@ -28,7 +28,7 @@ export const info = {
         "Tailwind CSS",
         "Bootstarp",
       ],
-      database: ["Mongodb", "Prisma"],
+      database: ["Mongodb","Postgresql", "Prisma", "Drizzle ORM"],
       other: ["Docker", "Git", "Github"],
     },
   ],
