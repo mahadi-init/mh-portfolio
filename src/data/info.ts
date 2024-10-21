@@ -35,6 +35,20 @@ export const info = {
 
   experience: [
     {
+      name: "Texbazar Ltd.",
+      technologies: "React | NextJs | Typescript | Redux | Zod | TailwindCSS",
+      startDate: "September 24",
+      endDate: "Present",
+      description: [
+        "- Building Responsive designs with React & NextJS.",
+        "- Utilizing Nextjs lastest features for performance and code quality.",
+        "- Managing complex and deep layout tree.",
+        "- Form submission and mutation with react-form-hook, zod & server actions.",
+        "- Realtime chat system.",
+        "- Global state management with Zustand.",
+      ],
+    },
+      {
       name: "Skyland Web",
       technologies: "React | Express | Mongodb | Typescript | JWT | REST",
       startDate: "March 24",
@@ -47,20 +61,6 @@ export const info = {
         "- Role based security system.",
         "- Deployment on Vercel. Render & Docker host.",
         "- Input validation with Zod and Typescript",
-      ],
-    },
-    {
-      name: "Texbazar Ltd.",
-      technologies: "React | NextJs | Typescript | Redux | Zod | TailwindCSS",
-      startDate: "September 24",
-      endDate: "Present",
-      description: [
-        "- Building Responsive designs with React & NextJS.",
-        "- Utilizing Nextjs lastest features for performance and code quality.",
-        "- Managing complex and deep layout tree.",
-        "- Form submission and mutation with react-form-hook, zod & server actions.",
-        "- Realtime chat system.",
-        "- Global state management with Zustand.",
       ],
     },
   ],
