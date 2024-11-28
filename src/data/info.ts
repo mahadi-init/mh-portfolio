@@ -1,10 +1,8 @@
-import { monthsSinceMarch2024 } from "src/utils/get-experience-month";
-
 export const info = {
   baseUrl: "https://mh-portfolio-eight.vercel.app",
   name: "Mahadi Hasan",
   jobDescription: "Web Developer",
-  about: `A web developer with ${monthsSinceMarch2024()} months of practical experience and over 3 years of educational background in
+  about: `A web developer with  months of practical experience and over 3 years of educational background in
   NodeJS for both frontend and backend technologies.`,
 
   education: [
@@ -28,7 +26,7 @@ export const info = {
         "Tailwind CSS",
         "Bootstarp",
       ],
-      database: ["Mongodb","Postgresql", "Prisma", "Drizzle ORM"],
+      database: ["Mongodb", "Postgresql", "Prisma", "Drizzle ORM"],
       other: ["Docker", "Git", "Github"],
     },
   ],
@@ -48,7 +46,7 @@ export const info = {
         "- Global state management with Zustand.",
       ],
     },
-      {
+    {
       name: "Skyland Web",
       technologies: "React | Express | Mongodb | Typescript | JWT | REST",
       startDate: "March 24",
@@ -74,19 +72,21 @@ export const info = {
 
   projects: [
     {
+      title: "Ladies Sign Admin",
+      desc: "Ladies sign admin panel",
+      isFeatured: true,
+      thumbnail: "/assets/projects/ladies-sign-admin.png",
+      liveUrl: "https://ladies-sign-admin.vercel.app/dashboard",
+      githubUrl: "https://github.com/mahadi-init/ladies-sign-admin",
+    },
+    {
       title: "Ladies Sign",
       desc: "Admin panel for ladies sign online shop",
       isFeatured: true,
       thumbnail: "/assets/projects/ladies-sign.png",
       liveUrl: "https://ladies-sign-client.vercel.app/",
     },
-    {
-      title: "China Goods",
-      desc: "China Goods Admin Panel",
-      isFeatured: true,
-      thumbnail: "/assets/projects/china-goods.png",
-      githubUrl: "https://github.com/mahadi-init/chinagoods",
-    },
+
     {
       title: "Wallpaper Changer",
       desc: "A desktop software to change wallpaper",
@@ -105,14 +105,14 @@ export const info = {
       title: "Optimizing Vitamin Detection",
       desc: "Classify Vitamin of Fruits and Vegetables by images",
       isFeatured: true,
-      thumbnail: "/assets/projects/vitamin.png",
+      thumbnail: "/assets/projects/vitamin.jpg",
       githubUrl: "https://github.com/mahadi-init/OPTIMIZING-VITAMIN-DETECTION",
     },
     {
       title: "Daraz Sentiment Analysis",
       desc: "Sentiment Analysis of Daraz marketplace Public Reviews",
       isFeatured: true,
-      thumbnail: "/assets/projects/sentiment.png",
+      thumbnail: "/assets/projects/daraz.jpg",
       githubUrl: "https://github.com/mahadi-init/Daraz-Sentiment-Analysis",
     },
   ],
